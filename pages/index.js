@@ -41,7 +41,7 @@ export default function Index() {
           align={["center", "flex-start"]}
           maxW="700px"
         >
-          <Heading mt="30px" mb={2}>
+          <Heading fontSize="5xl" mt="30px" mb={2}>
             Kawan Duarte
           </Heading>
 
