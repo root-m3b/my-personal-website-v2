@@ -53,7 +53,7 @@ const Container = ({ children }) => {
             <Button
               as="a"
               variant="ghost"
-              p={[1, 2, 4]}
+              p={[3, 3, 4]}
               _hover={{ backgroundColor: navHoverBg[`hover${colorMode}`] }}
             >
               Home
@@ -64,7 +64,7 @@ const Container = ({ children }) => {
             <Button
               as="a"
               variant="ghost"
-              p={[1, 2, 4]}
+              p={[3, 3, 4]}
               _hover={{ backgroundColor: navHoverBg[`hover${colorMode}`] }}
             >
               Projects
@@ -75,7 +75,7 @@ const Container = ({ children }) => {
             <Button
               as="a"
               variant="ghost"
-              p={[1, 2, 4]}
+              p={[3, 3, 4]}
               _hover={{ backgroundColor: navHoverBg[`hover${colorMode}`] }}
             >
               Blog
