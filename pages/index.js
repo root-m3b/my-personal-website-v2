@@ -81,7 +81,7 @@ export default function Index() {
             alt="Kawan Duarte"
             boxSize="225px"
             borderRadius="100%"
-            border="1px solid"
+            border="1px solid gray"
             mx="2rem"
           />
         </Flex>
