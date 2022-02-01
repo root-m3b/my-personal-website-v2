@@ -30,18 +30,18 @@ export default function Index() {
         m="0 auto 4rem auto"
         maxW="700px"
         px={2}
-        flexDir="row"
+        flexDir="column-reverse"
       >
         <Flex
           flexDir="column"
           justify="space-around"
-          align="flex-start"
+          align="center"
           maxW="700px"
         >
           <Heading mt="30px" mb={2}>
             Hi, I'm Kawan
           </Heading>
-          <Text mt="10px" color={colorSecondary[colorMode]}>
+          <Text textAlign='center' mt="10px" color={colorSecondary[colorMode]}>
             Full Stack Developer, Information Security Enthusiast and writer.
           </Text>
           <Flex mt="20px">
