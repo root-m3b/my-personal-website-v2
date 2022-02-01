@@ -87,7 +87,7 @@ export default function Index() {
         </Flex>
       </Stack>
 
-      <Text textAlign={["center"]} mt="46px" color={colorSecondary[colorMode]}>
+      <Text textAlign={["center"]} p={10} mt='auto' color={colorSecondary[colorMode]}>
         © 2022 Kawan Duarte
       </Text>
     </Container>
