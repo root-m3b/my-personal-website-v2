@@ -8,6 +8,7 @@ export default class MyDocument extends NextDocument {
       <Html lang="en">
         <GoogleFonts href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" />
         <Head />
+        
         <body>
           <ColorModeScript />
           <Main />
