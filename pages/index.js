@@ -42,7 +42,7 @@ export default function Index() {
             Hi, I'm Kawan
           </Heading>
           <Text textAlign={["center", "left"]} mt="10px" color={colorSecondary[colorMode]}>
-            Full Stack Developer, Information Security Enthusiast and writer.
+            Full Stack Developer, Information Security Enthusiast and Writer.
           </Text>
           <Flex mt="20px">
             <Stack direction="row">
