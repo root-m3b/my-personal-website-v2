@@ -28,9 +28,12 @@ export default function Index() {
         align="center"
         justify="center"
         m="0 auto 4rem auto"
-        maxW="700px"
-        px={2}
+        maxW="800px"
+        px={10}
+        py={5}
         flexDir={["column-reverse", "row"]}
+        border='1px solid gray'
+        borderRadius='10px'
       >
         <Flex
           flexDir="column"
@@ -39,11 +42,13 @@ export default function Index() {
           maxW="700px"
         >
           <Heading mt="30px" mb={2}>
-            Hi, I'm Kawan
+            Kawan Duarte
           </Heading>
+
           <Text textAlign={["center", "left"]} mt="10px" color={colorSecondary[colorMode]}>
             Full Stack Developer, Information Security Enthusiast and Writer.
           </Text>
+          
           <Flex mt="20px">
             <Stack direction="row">
               <IconButton
@@ -54,6 +59,7 @@ export default function Index() {
                 aria-label="Github"
                 icon={<FaGithub />}
                 fontSize="2xl"
+                _hover={{ transform: "translateY(-3px)" }}
               />
               <IconButton
                 as="a"
@@ -63,6 +69,7 @@ export default function Index() {
                 aria-label="Linkedin"
                 icon={<FaLinkedin />}
                 fontSize="2xl"
+                _hover={{ transform: "translateY(-3px)" }}
               />
             </Stack>
           </Flex>
@@ -79,6 +86,10 @@ export default function Index() {
           />
         </Flex>
       </Stack>
+
+      <Text textAlign={["center"]} mt="46px" color={colorSecondary[colorMode]}>
+        © 2022 Kawan Duarte
+      </Text>
     </Container>
   );
 }

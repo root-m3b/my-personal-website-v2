@@ -1,5 +1,6 @@
 import React from "react";
-import { useColorMode, Button, Flex, Box } from "@chakra-ui/react";
+import { useColorMode, Button, Flex, Box, IconButton } from "@chakra-ui/react";
+import { FaCode } from "react-icons/fa";
 import NextLink from "next/link";
 import styled from "@emotion/styled";
 import DarkModeSwitch from "./DarkModeSwitch";
@@ -15,8 +16,8 @@ const Container = ({ children }) => {
   const navHoverBg = {
     light: "gray.600",
     dark: "gray.300",
-    hoverlight: "gray.500",
-    hoverdark: "gray.400"
+    hoverlight: "gray.300",
+    hoverdark: "gray.700",
   };
 
   const StickNav = styled(Flex)`
@@ -37,17 +38,24 @@ const Container = ({ children }) => {
         flexDir="row"
         justify="space-between"
         align="center"
-        maxW="800px"
+        maxW="850px"
         minW="356px"
         w="100%"
         bg={bgColor[colorMode]}
         as="nav"
         px={[2, 6, 6]}
         py={2}
-        mt={8}
-        mb={[0, 0, 8]}
+        mt={12}
+        mb={[0, 0, 16]}
         mx="auto"
       >
+        <NextLink href="/" passHref>
+          <IconButton
+            color={color[colorMode]}
+            icon={<FaCode />}
+            fontSize="lg"
+          />
+        </NextLink>
         <Box>
           <NextLink href="/" passHref>
             <Button
