@@ -32,7 +32,7 @@ export default function Index() {
         px={10}
         py={5}
         flexDir={["column-reverse", "row"]}
-        border='1px solid gray'
+        border={[0, 0, '1px solid gray']}
         borderRadius='10px'
       >
         <Flex
